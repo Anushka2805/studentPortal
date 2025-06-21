@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+#  Student Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive web application built with **React** and **Tailwind CSS** that helps students manage academic activities, track events, view societies, and stay organized — all in one place.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features Implemented
 
-### `npm start`
+-  **Authentication System**  
+  - Dummy login with email & password  
+  - Signup page to register new users  
+  - LocalStorage-based auth  
+  - Redirect to dashboard after login  
+  - Show/hide password toggle  
+  - Auto-login redirect if already logged in  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  **Sticky Navbar**  
+  - Includes: Home | Users | Dashboard | Logout  
+  - Displays current logged-in user's name  
+  - Responsive and dark-mode supported  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-  **Home Page**  
+  - Welcome section with gradient background  
+  - Scrollable sections for upcoming events, societies, and tasks  
+  - Latest campus highlights with cards  
+  - Personalized pending tasks  
 
-### `npm test`
+-  **Users Page**  
+  - Fetches data from `https://jsonplaceholder.typicode.com/users`  
+  - Displays Name, Email, Phone, and Website  
+  - Responsive layout with loading & error states  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  **Dashboard Page**  
+  - Shows dummy academic stats (GPA, Attendance, Subjects)  
+  - Uses responsive cards with Tailwind  
 
-### `npm run build`
+-  **Dark Mode Support**  
+  - Toggle button for switching between light/dark mode  
+  - Persists theme across sessions  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  **Logout**  
+  - Clears user from localStorage  
+  - Redirects back to login page  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshot
 
-### `npm run eject`
+![Student Portal Screenshot (in light mode)](src/components/homepage_lightmode.jpeg)
+![Student Portal Screenshot (in dark mode)](src/components/homepage_darkmode.jpeg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What I Learnt / Found Challenging
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Learned how to set up Tailwind CSS in a React project manually
+- Understood React routing and `useNavigate()` logic for authentication
+- Practiced managing dark mode and persisting state using `localStorage`
+- Found styling scrollable components and responsive layouts using Tailwind very intuitive
+- Learned how to fetch and render real-time data from public APIs with loading/error handling
+- Faced and fixed Tailwind + PostCSS plugin compatibility issues
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Live Site
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Hosted on [Vercel](https://vercel.com)  
+URL: https://student-portal-omega-nine.vercel.app/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
