@@ -12,7 +12,7 @@ const subjects = [
 const cards = [
   { 
     title: "GPA", 
-    value: "3.85", 
+    value: "9.2", 
     bg: "bg-[#A2AADB] dark:bg-gray-800", 
     text: "text-white dark:text-gray-200",
     hoverBg: "hover:bg-[#898AC4] dark:hover:bg-gray-700",
