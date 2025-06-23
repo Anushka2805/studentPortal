@@ -1,6 +1,6 @@
 #  Student Portal
 
-A modern, responsive web application built with **React** and **Tailwind CSS** that helps students manage academic activities, track events, view societies, and stay organized — all in one place.
+A modern, responsive web application built with **React** and **Tailwind CSS** that helps students manage academic activities, track events, view societies, and stay organized all in one place.
 
 ---
 
@@ -12,7 +12,7 @@ A modern, responsive web application built with **React** and **Tailwind CSS** t
   - LocalStorage-based auth  
   - Redirect to dashboard after login  
   - Show/hide password toggle  
-  - Auto-login redirect if already logged in  
+  - Auto login redirect if already logged in  
 
 -  **Sticky Navbar**  
   - Includes: Home | Users | Dashboard | Logout  
@@ -35,8 +35,7 @@ A modern, responsive web application built with **React** and **Tailwind CSS** t
   - Uses responsive cards with Tailwind  
 
 -  **Dark Mode Support**  
-  - Toggle button for switching between light/dark mode  
-  - Persists theme across sessions  
+  - Toggle button for switching between light and dark mode  
 
 -  **Logout**  
   - Clears user from localStorage  
@@ -51,13 +50,13 @@ A modern, responsive web application built with **React** and **Tailwind CSS** t
 
 ---
 
-## What I Learnt / Found Challenging
+## What I Learnt & Found Challenging
 
 - Learned how to set up Tailwind CSS in a React project manually
 - Understood React routing and `useNavigate()` logic for authentication
 - Practiced managing dark mode and persisting state using `localStorage`
 - Found styling scrollable components and responsive layouts using Tailwind very intuitive
-- Learned how to fetch and render real-time data from public APIs with loading/error handling
+- Learned how to fetch and render real time data from public APIs with loading/error handling
 - Faced and fixed Tailwind + PostCSS plugin compatibility issues
 
 ---
